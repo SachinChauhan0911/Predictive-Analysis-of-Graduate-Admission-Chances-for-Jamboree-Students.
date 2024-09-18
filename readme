@@ -1,4 +1,4 @@
-**Predicting Graduate Admissions Probability Using Linear Regression**
+Predicting Graduate Admissions Probability Using Linear Regression
 This repository contains a case study project to predict the probability of students getting admitted into a graduate program at XYZ League College based on various factors such as CGPA, GRE score, TOEFL score, and more. The goal of this project is to use Linear Regression to estimate the Chance_of_Admit for prospective students.
 
 Problem Statement
@@ -27,20 +27,19 @@ Chance_of_Admit: The target variable, i.e., the probability of getting admitted 
 Approach
 The project follows these main steps:
 
-Data Preprocessing:
-
+1. Data Preprocessing:
 Load the dataset
 Handle any missing data
 Standardize or normalize the features for better performance in regression models.
-Exploratory Data Analysis (EDA):
 
+2. Exploratory Data Analysis (EDA):
 Visualizing the distributions of the features
 Checking the correlations between the independent features and the target variable (Chance_of_Admit).
-Model Development:
 
+3. Model Development:
 Implement Linear Regression to predict Chance_of_Admit using the independent variables.
 Perform Ridge and Lasso regularization to prevent overfitting and enhance feature selection.
-Model Evaluation:
 
+4. Model Evaluation:
 Evaluate model performance using metrics like R-squared (R²) and Root Mean Squared Error (RMSE).
 Use cross-validation to generalize model performance on unseen data.
