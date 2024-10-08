@@ -1,45 +1,23 @@
-Predicting Graduate Admissions Probability Using Linear Regression
-This repository contains a case study project to predict the probability of students getting admitted into a graduate program at XYZ League College based on various factors such as CGPA, GRE score, TOEFL score, and more. The goal of this project is to use Linear Regression to estimate the Chance_of_Admit for prospective students.
+# Project Title:
+Predictive Analysis of Graduate Admission Chances for Jamboree Students
 
-Problem Statement
-Jamboree has helped thousands of students reach top colleges abroad by providing test prep services for GMAT, GRE, SAT, etc. As part of their service, they have introduced a feature on their website that allows students to check their probability of admission into the XYZ League College. The feature uses data like:
+# Problem Statement:
+Jamboree has recently introduced a feature that allows students to estimate their chances of gaining admission into Ivy League schools based on various factors. This project 
+aims to analyze the significant factors affecting graduate admissions from an Indian perspective. The analysis will help predict the likelihood of a student's admission, 
+given key variables such as CGPA, GRE, TOEFL scores, and others. This will assist Jamboree in providing more accurate admission predictions and recommendations to students.
 
-GRE Score
-TOEFL Score
-University Rating
-SOP (Statement of Purpose)
-LOR (Letter of Recommendation Strength)
-CGPA
-Research Experience
-The aim is to create a predictive model using linear regression that estimates a student’s Chance_of_Admit using these independent variables.
+# Approach:
+- Perform exploratory data analysis (EDA) to understand the relationship between variables such as CGPA, GRE, TOEFL, SOP, LOR, research experience, and university rating with the chances of admission.
+- Apply multiple regression models, including Linear Regression, Ridge, and ElasticNet, to predict the chances of admission.
+- Evaluate and compare model performance using R² scores and error metrics on unseen data.
+- Identify and rank the importance of factors that significantly influence admission chances.
 
-Features Used for Prediction
-The features used in this analysis are:
+# Potential Impact:
+Provide actionable insights to Jamboree for better advising students on areas to improve to boost their admission chances.
+Enhance the feature on Jamboree’s platform by offering personalized admission predictions, which will improve user engagement.
+Help Jamboree students make data-driven decisions, leading to higher satisfaction and more successful admission outcomes.
 
-GRE Score: Graduate Record Exam score (out of 340)
-TOEFL Score: Test of English as a Foreign Language score (out of 120)
-University Rating: Rating of the University (1-5 scale)
-SOP: Strength of Statement of Purpose (1-5 scale)
-LOR: Strength of Letter of Recommendation (1-5 scale)
-CGPA: Undergraduate GPA (on a scale of 10)
-Research: Whether the student has research experience (0 = No, 1 = Yes)
-Chance_of_Admit: The target variable, i.e., the probability of getting admitted (between 0 and 1)
-Approach
-The project follows these main steps:
 
-1. Data Preprocessing:
-Load the dataset
-Handle any missing data
-Standardize or normalize the features for better performance in regression models.
 
-2. Exploratory Data Analysis (EDA):
-Visualizing the distributions of the features
-Checking the correlations between the independent features and the target variable (Chance_of_Admit).
 
-3. Model Development:
-Implement Linear Regression to predict Chance_of_Admit using the independent variables.
-Perform Ridge and Lasso regularization to prevent overfitting and enhance feature selection.
 
-4. Model Evaluation:
-Evaluate model performance using metrics like R-squared (R²) and Root Mean Squared Error (RMSE).
-Use cross-validation to generalize model performance on unseen data.
