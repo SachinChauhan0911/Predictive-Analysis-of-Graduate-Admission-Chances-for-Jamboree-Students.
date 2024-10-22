@@ -84,6 +84,9 @@ Help Jamboree students make data-driven decisions, leading to higher satisfactio
 - Hyperparameter tuning was done using GridSearchCV to find the optimal alpha and l1_ratio for Elastic Net regularization.
 Final model performance showed improved regularization over Lasso with similar results to Ridge.
 
+### 6. Models Comparison
+![text](https://github.com/SachinChauhan0911/Linear-Regression---Jamboree-Education-Case-Study/blob/main/images/Screenshot%202024-10-22%20at%207.29.03%20AM.png)
+
 #### Key Insights
 - Linear Regression and Ridge Regression performed the best with consistent R² and Adjusted R² scores of 0.82 on training and test datasets.
 - Lasso Regression underperformed with R² scores close to zero, indicating poor model fit.
