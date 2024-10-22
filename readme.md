@@ -87,12 +87,18 @@ Final model performance showed improved regularization over Lasso with similar r
 ### 6. Models Comparison
 ![text](https://github.com/SachinChauhan0911/Linear-Regression---Jamboree-Education-Case-Study/blob/main/images/Screenshot%202024-10-22%20at%207.29.03%20AM.png)
 
+### 7. Feature Importances for different models
+![text2](https://github.com/SachinChauhan0911/Linear-Regression---Jamboree-Education-Case-Study/blob/main/images/Screenshot%202024-10-22%20at%207.35.06%20AM.png)
+
 #### Key Insights
 - Linear Regression and Ridge Regression performed the best with consistent R² and Adjusted R² scores of 0.82 on training and test datasets.
 - Lasso Regression underperformed with R² scores close to zero, indicating poor model fit.
+- The model performs poorly with Lasso Regularization, as it drives the weights of all features to **zero**. This suggests that Lasso may be too aggressive in shrinking feature coefficients to zero, which negatively affects performance.
 - Homoscedasticity: Residuals show constant variance, so homoscedasticity is assumed to be met.
 - Heteroscedasticity: Evidence of heteroscedasticity in the residuals suggests that the variance of the residuals is not constant - across the levels of independent variables. This may affect the linear regression model's validity.
 - Regularization: Ridge regression provided better performance over Lasso and Elastic Net regularization with similar results to the Linear Regression model.
+
+
 
 
 
